@@ -16,7 +16,7 @@ public class Destroyer : MonoBehaviour
         start = 1;
         currentTime = start * 5;
     }
-    private void FixedUpdate()
+    private void Update()
     { 
        
         if (timerActive==true)
